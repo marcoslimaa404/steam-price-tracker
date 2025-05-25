@@ -1,8 +1,11 @@
-# Banco de dados local e outras configurações sensíveis.
+# Banco de dados local e outras configs sensíveis
 /data/
-# Token do Bot no Discord
+# Tokens do bot e outras configs do Discord
 .env
 # Dependencias instaladas
 node_modules/
 # Arquivos de log
 *.log
+# Arquivos temporários do neovim
+*.swp
+.*.swp
